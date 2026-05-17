@@ -23,7 +23,7 @@ position = 0
 
 epd = epd1in54_V2.EPD()
 
-epd.init(False)
+epd.init(True)
 epd.Clear(0xFF)
 
 WIDTH = epd.height
