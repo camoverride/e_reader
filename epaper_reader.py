@@ -64,6 +64,7 @@ while True:
 
     # Update display
     epd.display(epd.getbuffer(image))
+    epd.displayPartial(epd.getbuffer(image))
 
     # Move forward in text
     position += 220
